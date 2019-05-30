@@ -1,0 +1,24 @@
+title: phpdbg
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: just-the-docs
+plugins:
+  - jekyll-mentions
+
+# Just The Docs config
+search_enabled: true
+aux_links:
+    "View on GitHub":
+      - "//github.com/rmccue/phpdbg-docs"
+
+# Force default layout
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
